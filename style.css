@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #9c6f4d;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #dca975;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.title {
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: #6a462e;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#dogPic {
+    height: 400px;
+    width: 350px;
+    border-radius: 2rem;
+    border-color: rgba(176, 168, 129, 0.996);
+}
+
+#newDogPic {
+    background-color: white;
+    padding: .5rem;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 1rem;
+}
+
+#newDogPic:hover {
+    background-color: #fff2af;
+    transition: ease-in;
+}
